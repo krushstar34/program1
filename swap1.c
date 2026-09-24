@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Q6: Write a program to swap two numbers using a third variable.
 
 /*
@@ -27,3 +28,34 @@ int main()
     return 0;
 }
 
+=======
+// Q6: Write a program to swap two numbers using a third variable.
+
+/*
+Sample Test Cases:
+Input 1:
+3 5
+Output 1:
+After swap: 5 3
+
+Input 2:
+-1 1
+Output 2:
+After swap: 1 -1
+
+*/
+
+#include<stdio.h>
+
+int main()
+{
+    int a,b,c;
+    scanf("%d %d",&a, &b);
+    c=a;
+    a=b;
+    b=c;
+    printf("after swap:%d %d",a,b);
+    return 0;
+}
+
+>>>>>>> d4cb1af5f611b1426f8d565efb48ec766940e4ce

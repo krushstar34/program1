@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Q11: Write a program to input an integer and check whether it is even or odd using if–else.
 
 /*
@@ -30,3 +31,37 @@ int main()
     }
     return 0;
 }
+=======
+// Q11: Write a program to input an integer and check whether it is even or odd using if–else.
+
+/*
+Sample Test Cases:
+Input 1:
+7
+Output 1:
+7 is odd
+
+Input 2:
+12
+Output 2:
+12 is even
+
+*/
+
+
+#include<stdio.h>
+
+int main()
+{
+    int n;
+    printf("enter number : ");
+    scanf("%d",&n);
+    if (n % 2==0){
+        printf("number is even");
+    }
+    else{
+        printf("number is odd");
+    }
+    return 0;
+}
+>>>>>>> d4cb1af5f611b1426f8d565efb48ec766940e4ce

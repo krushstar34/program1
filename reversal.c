@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Q30: Write a program to reverse a given number.
 
 /*
@@ -28,3 +29,19 @@ int main()
     printf("%d",rev);
     return 0;
 }
+=======
+#include<stdio.h>
+
+int main()
+{
+    int n,rev=0,rem;
+    scanf("%d",&n);
+    while(n!=0){
+        rem = n%10;
+        rev = rev*10 + rem;
+        n = n/10;
+    }
+    printf("%d",rev);
+    return 0;
+}
+>>>>>>> d4cb1af5f611b1426f8d565efb48ec766940e4ce
